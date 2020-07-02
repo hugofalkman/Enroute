@@ -21,18 +21,7 @@ struct FlightsEnrouteView: View {
     var body: some View {
         NavigationView {
             FlightList(flightSearch)
-                .navigationBarItems(leading: simulation, trailing: filter)
-        }
-    }
-    
-    @State private var showFilter = false
-    
-    var filter: some View {
-        Button("Filter") {
-            self.showFilter = true
-        }
-        .sheet(isPresented: $showFilter) {
-            FilterFlights(flightSearch: self.$flightSearch, isPresented: self.$showFilter)
+                .navigationBarItems(leading: simulation)
         }
     }
     
@@ -40,6 +29,10 @@ struct FlightsEnrouteView: View {
     // then we simulate data from KSFO and KLAS (Las Vegas, NV)
     // the simulation time must match the times in the simulation data
     // so, to orient the UI, this simulation View shows the time we are simulating
+    
+    // NOTE: To display the simulated data correctly, set the timezone on the Mac running
+    // Xcode to Pacific time (the device simulator timezone can't be changed independently).
+    
     var simulation: some View {
         let isSimulating = Date.currentFlightTime.timeIntervalSince(Date()) < -1
         return Text(isSimulating ? DateFormatter.shortTime.string(from: Date.currentFlightTime) : "")

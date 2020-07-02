@@ -13,7 +13,6 @@
 		B1CAC6C124ACF54500B60526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CAC6C024ACF54500B60526 /* Assets.xcassets */; };
 		B1CAC6C424ACF54500B60526 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CAC6C324ACF54500B60526 /* Preview Assets.xcassets */; };
 		B1CAC6C724ACF54500B60526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CAC6C524ACF54500B60526 /* LaunchScreen.storyboard */; };
-		B1CAC6D424ACF67500B60526 /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CAC6CE24ACF67400B60526 /* FilterFlights.swift */; };
 		B1CAC6D524ACF67500B60526 /* FlightFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CAC6CF24ACF67400B60526 /* FlightFetcher.swift */; };
 		B1CAC6D624ACF67500B60526 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CAC6D024ACF67400B60526 /* Airports.swift */; };
 		B1CAC6D724ACF67500B60526 /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CAC6D124ACF67400B60526 /* FlightsEnrouteView.swift */; };
@@ -36,7 +35,6 @@
 		B1CAC6C324ACF54500B60526 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B1CAC6C624ACF54500B60526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1CAC6C824ACF54500B60526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1CAC6CE24ACF67400B60526 /* FilterFlights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
 		B1CAC6CF24ACF67400B60526 /* FlightFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFetcher.swift; sourceTree = "<group>"; };
 		B1CAC6D024ACF67400B60526 /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
 		B1CAC6D124ACF67400B60526 /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				B1CAC6D124ACF67400B60526 /* FlightsEnrouteView.swift */,
-				B1CAC6CE24ACF67400B60526 /* FilterFlights.swift */,
 				B1CAC6CF24ACF67400B60526 /* FlightFetcher.swift */,
 				B1CAC6D324ACF67400B60526 /* Airlines.swift */,
 				B1CAC6D024ACF67400B60526 /* Airports.swift */,
@@ -195,7 +192,6 @@
 				B1CAC6E424ACF72300B60526 /* FlightSimulationData.swift in Sources */,
 				B1CAC6D724ACF67500B60526 /* FlightsEnrouteView.swift in Sources */,
 				B1CAC6E024ACF72300B60526 /* FlightAware+AirlineInfo.swift in Sources */,
-				B1CAC6D424ACF67500B60526 /* FilterFlights.swift in Sources */,
 				B1CAC6D824ACF67500B60526 /* FoundationExtensions.swift in Sources */,
 				B1CAC6E324ACF72300B60526 /* FlightAware+Enroute.swift in Sources */,
 				B1CAC6E524ACF72300B60526 /* FlightAware+AirportInfo.swift in Sources */,
